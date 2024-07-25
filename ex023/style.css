@@ -1,0 +1,14 @@
+@charset "UTF-08";
+
+
+body{
+    color: white;
+}
+
+h1{
+    color: black;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: black;
+}
