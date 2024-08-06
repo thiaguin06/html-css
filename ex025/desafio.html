@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th,td{
+            border: 1px solid black;
+            width: 90px;
+            height: 30px
+        }
+        tfoot{
+            border: 1px solid black;
+            
+        }
+        th{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <thead>
+        <tr>
+            <th rowspan="2">area</th>
+            <th rowspan="2" >disciplina</th>
+            <th colspan="2">notas</th>
+           
+            <th rowspan="4" scope="rowgroup">media</th>
+        </tr>
+       
+       </thead> 
+       <tbody>
+        <tr>
+            <th rowspan="4" scope="rowgroup">exatas</th>
+           <td>matematica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr> 
+            <td>fisica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            
+        </tr>
+        <tr>
+            <td>quimica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>biologia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+            <tr>
+              
+                <th colspan="4" style="text-align: left;">media de exatas</th>
+            
+            </tr>
+       </tbody>
+       <tr>
+        <th rowspan="2">humanas</th>
+        <td>historia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+       </tr>
+       <tr>
+        <td>geografia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+       </tr>
+       <tfoot>
+        <th colspan="5">media de humanas</th>
+       </tfoot>
+    </table>
+</body>
+</html>
