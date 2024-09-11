@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*CONFG PAISA MODO PORTRAIT */
+
+body{
+    background: url(../imagem/cev-portrait.jpg);
+    background-position: center bottom;
+    
+}
